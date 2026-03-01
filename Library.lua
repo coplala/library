@@ -3192,7 +3192,7 @@ local Library do
 
                 Settings:Slider({
                     Name = "Background Transparency",
-                    Default = 0.12,
+                    Default = 0.03,
                     Decimals = 0.01,
                     Max = 1,
                     Min = 0,
@@ -3206,7 +3206,7 @@ local Library do
                 Settings:Keybind({
                     Name = "Menu Keybind",
                     Flag = "MenuBind",
-                    Default = Enum.KeyCode.Z,
+                    Default = Enum.KeyCode.Insert,
                     Callback = function(Value)
                         Window:SetOpen(Value)
                     end
